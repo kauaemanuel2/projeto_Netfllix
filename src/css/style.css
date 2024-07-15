@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: url(../img/netflix-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header > img{
+    width: 100px;
+    padding: 20px;
+}
+
+header > button{
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    font-family: "Gotham";
+}
+
+#cabecario{
+    text-align: center;
+    color: white;
+    
+}
+
+#cabecario > h2{
+    padding: 20px;
+    font-size: 2em;
+}
+
+#cabecario > p{
+    padding: 10px;
+    font-size: 1.1em;
+    color: rgb(199, 199, 199);
+}
+
+#cabecario > input{
+    font-family: "Gotham";
+    
+}
+
+#ok{
+    color: white;
+    background-color: red;
+    height: 50px;
+    width: 80px;
+}
+
+body{
+    background-color: gray;
+    font-family: "Gotham";
+}
+@font-face {
+    font-family: "Gotham";
+    src: url(../font/Gotham-Font/GothamMedium.ttf);
+}
